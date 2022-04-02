@@ -5,5 +5,6 @@ public class FactoryDesignPattern {
        OperatingSystemFactory systemFactory=new OperatingSystemFactory();
        OS os=systemFactory.getInstance("closed");
        os.spec();
+       //test git from terminal
     }
 }
